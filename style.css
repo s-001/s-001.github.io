@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+header {
+	background: #456;
+	box-shadow: 0px 1px 20px 0px rgba(51, 71, 91, 0.45);
+}
+
+header h1{
+	padding: 10px 20px;
+	color: #bd8e23;
+}
+
+header div{
+	text-align: right;
+}
+
+header div a{
+	color: red;
+	margin-right: 10px; 
+}
+
+.page_fsth {
+	padding: 60px 100px;
+	border-bottom: 10px solid blue; 
+	background: url(./pictures/kanabis.jpeg);
+}
+
+.img_fsth {
+	display: flex;
+	justify-content: center;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+}
+
+.bgpicture {
+	width: 100%;
+	height: 100%;
+}
+
+section table {
+	width: 100%;
+	font-family: arial, sans-serif;
+  	border-collapse: collapse;
+  	border-bottom: 10px solid blue;
+}
+td, #t {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  	background-color: #dddddd;
+}
+
+#t {
+	text-align: center;
+	font-size: 50px;
+	background-color: #309030;
+	border-color: #309030;
+}
+
+#b {
+	background-color: #309030;
+	text-align: center;
+}
+
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+
+
+
+
+
+
+/*flex box (naenq es inja) */
+/*sranic heto text, heto gic, heto technologies(inj gitenq), gic, injerem anum(web site creation, web uplication dewelopment),verjumel(contacts), u footer(c1996 sam petrosyan);*/
